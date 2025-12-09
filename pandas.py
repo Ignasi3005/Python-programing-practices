@@ -15,5 +15,5 @@ df["mean"]=df[["Age","score"]].mean(axis=1) #This add avarage of Age and scores
 
 print(df)
 print(df["Names"]) #This prints names column
-print(df.loc[2])
+print(df.loc[1])
 print(df.sort_values(by="mean",ascending=True))
