@@ -1,3 +1,4 @@
+#CREATING PI CHARTS USING PYTHON
 import matplotlib.pyplot as plt
 lab=["Ignasi","Kalisio","Miho"]
 Age=[24,52,86]
