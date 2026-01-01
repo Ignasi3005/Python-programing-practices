@@ -1,0 +1,15 @@
+[project]
+name = "991ex"
+version = "0.1.0"
+description = "A desktop fx-991EX-like scientific calculator with symbolic algebra (SymPy) built with PySide6."
+authors = [ {name = "Your Name"} ]
+readme = "README.md"
+requires-python = ">=3.11"
+
+[project.dependencies]
+PySide6 = "*"
+sympy = "*"
+
+[build-system]
+requires = ["setuptools>=65.0", "wheel"]
+build-backend = "setuptools.build_meta"
